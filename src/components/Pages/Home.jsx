@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import hot_img from "../../images/hot.jpg";
 import cold_img from "../../images/cold.jpg";
 import rain_img from "../../images/rain.jpg";
+import hazy_img from "../../images/Hazy.jpg";
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import ThunderstormIcon from '@mui/icons-material/Thunderstorm';
@@ -84,7 +85,7 @@ const Home = () => {
     <>
 
       <div className=" card d-flex justify-content-center " >
-  <img src="src\images\Hazy.jpg" className="card-img img-fluid rounded opacity-30 " style={{'height': '33rem','width': '100%'}}  alt="..."/>
+  <img src={hazy_img} className="card-img img-fluid rounded opacity-30 " style={{'height': '33rem','width': '100%'}}  alt="..."/>
  
       
 <div className="card-img-overlay text-center mt-5 pt-5 ">
